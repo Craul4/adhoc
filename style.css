@@ -6,8 +6,9 @@
     background-size: cover;
 }
 
-h1.fontsize{
-    font-size:60px;
+p.fontsize{
+    font-size:48px;
+    margin-bottom:0px;
 }
 
 
@@ -53,12 +54,9 @@ p.textSpecs{
 .carousel img{
     width:50%;
     padding-bottom:25px;
-    
 }
 
 .carousel-caption{
-    display:inline-block;
-    position:absolute;
     bottom:10%;
     width:30%;
     padding:0px;
@@ -67,4 +65,21 @@ p.textSpecs{
 
 .carousel-caption p{
     margin-bottom:0px;
+}
+
+/*Footer*/
+
+footer p {
+    margin:0px;
+    padding-top:15px;
+}
+
+@media screen and (max-width: 527px) {
+    .pfontsize{
+        font-size:12px;
+    }
+
+    .carousel-caption{
+        bottom:20%;
+    }
 }
