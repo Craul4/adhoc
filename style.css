@@ -1,0 +1,70 @@
+
+/*Jumbotron section*/
+
+.jumbotron{
+    background-image: url('images/jumbotron.png');
+    background-size: cover;
+}
+
+h1.fontsize{
+    font-size:60px;
+}
+
+
+/* Quote Section*/
+
+p.lead{
+    font-size:1.2rem;
+    line-height: 1.2;
+    margin-top:22px;
+}
+
+div.quote{
+    border-bottom: 1px solid gray;
+}
+
+
+/* Why? section*/
+
+p.textSpecs{
+    font-size:46px;
+    margin-top:32px;
+}
+
+
+/* Card section*/
+
+.card{
+    border:none;
+}
+
+.card-text{
+    padding-top:10px;
+}
+
+
+/* Carousel section*/
+
+#carouselControls{
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+.carousel img{
+    width:50%;
+    padding-bottom:25px;
+    
+}
+
+.carousel-caption{
+    display:inline-block;
+    position:absolute;
+    bottom:10%;
+    width:30%;
+    padding:0px;
+    margin:0px;
+}
+
+.carousel-caption p{
+    margin-bottom:0px;
+}
